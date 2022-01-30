@@ -1,9 +1,9 @@
-export async function fetcher(url) {
+export async function fetcher(url:any) {
   const result = await fetch(url);
   return await result.json();
 }
 
-export async function postData(url, data) {
+export async function postData(url:any, data:any) {
   // Default options are marked with *
   const response = await fetch(url, {
     method: "POST", // *GET, POST, PUT, DELETE, etc.
