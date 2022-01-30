@@ -15,7 +15,7 @@ export function LayoutFullWidth({
       
         <Header />
         <Head>
-          <title>Website title</title>
+          <title>Moon Goons</title>
           <meta
             name="description"
             content="Website description."

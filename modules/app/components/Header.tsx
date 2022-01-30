@@ -9,7 +9,7 @@ export function Header() {
           <div className="left">
             <h1>
               <Link href="/">
-                <a>Title</a>
+                <a>Moon Goons</a>
               </Link>
             </h1>
           </div>

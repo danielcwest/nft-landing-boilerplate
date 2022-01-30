@@ -2,15 +2,20 @@ import Link from "next/link";
 import { Button } from "../modules/app/components/Button";
 import { LayoutFullWidth } from "../modules/app/components/LayoutFullWidth";
 import { MintBox } from "../modules/nft/components/MintBox";
+import moonPic from '../public/moon.png';
+import Image from 'next/image'
 
 export default function Home() {
 
   return (
     <LayoutFullWidth>
+          
       <div className="teaser">
-        <h2>My NFT</h2>
+        <h2>Moon Goons</h2>
         <p>
-          Yeah
+        <Image
+            src={moonPic}
+            />
         </p>
         <MintBox />
       </div>
@@ -18,7 +23,7 @@ export default function Home() {
      
 
       <div className="centered">
-        <h2>About My NFT</h2>
+        <h2>About Moon Goons</h2>
         <p>
           Get one now
 
